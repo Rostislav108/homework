@@ -1,0 +1,15 @@
+# Среда и IDE
+.idea/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Секреты и локальные настройки
+.env
+.env.local
+
+# Базы данных
+*.sqlite
+*.sqlite3
+*.sqlite-journal
