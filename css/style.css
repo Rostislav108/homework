@@ -1,0 +1,28 @@
+/* Дополнительные стили поверх Bootstrap */
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-size: 1.25rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
